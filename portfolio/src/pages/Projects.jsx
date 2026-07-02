@@ -3,7 +3,7 @@ const projectList = [
     {id: 2, title: "SEQUoIA", desc: "Mathematical Phylogenetic Biology Research project conducted with R and Julia", link: "#"},
 ];
 
-export default function Projects() {
+const Projects = () => {
     return (
         <section id="projects">
             <h2>My Projects</h2>
@@ -16,4 +16,6 @@ export default function Projects() {
           ))}
         </section>
     );
-}
+};
+
+export default Projects;

@@ -1,0 +1,37 @@
+/* Container for the whole section */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Left side layout holding the images */
+.image-column {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  justify-content: center;
+}
+
+/* The actual images */
+.portfolio-img {
+  width: 75%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Right side layout holding the copy */
+.text-column {
+  flex: 1 1 300px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
