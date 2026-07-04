@@ -29,9 +29,31 @@
 
 /* Right side layout holding the copy */
 .text-column {
-  flex: 1 1 300px;
+  flex: 1 1 500px;
   padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+}
+.job-header {
+  display: flex;
+  justify-content: space-between; /* Pushes date to the right */
+  font-weight: bold;
+}
+.job-company {
+  font-style: normal;
+  margin-bottom: 0.5rem;
+}
+.job-bullets {
+  padding-left: 1.5rem;
+}
+.job-bullets li {
+  margin-bottom: 0.25rem;
 }
